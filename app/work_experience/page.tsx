@@ -156,9 +156,6 @@ export default function WordExperience() {
 
             <div className="h-4" />
 
-
-
-            {/* Repeat for other work experiences... */}
         </div>
 
     );
