@@ -9,7 +9,7 @@ export default function Home() {
         
         <div className="column text-center">
           <h1 className="name text-7xl font-bold">Sahil Saini</h1>
-          <TypingAnimation text="Software Engineer | Developer | Problem Solver"/>
+          <TypingAnimation text="Software Engineer | Developer | Problem Solver" size="text-2xl"/>
         </div>
         
         <div className="flex gap-10 mt-10 text-xl">

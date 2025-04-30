@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const TypingAnimation = ({text}: {text: string}) => {
+const TypingAnimation = ({text, size}: {text: string, size: string}) => {
     const [currentText, setCurrentText] = useState('');
     const [isDeleting, setIsDeleting] = useState(false);
     const [index, setIndex] = useState(0);
@@ -32,7 +32,7 @@ const TypingAnimation = ({text}: {text: string}) => {
     }, [index, isDeleting]);
 
     return(
-        <div className="text-2xl mt-10">
+        <div className={size + " mt-10"}>
       {currentText}
       {'|'}
       </div>

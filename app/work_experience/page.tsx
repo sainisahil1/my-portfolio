@@ -13,14 +13,14 @@ export default function WordExperience() {
     }
 
     const roamSde2Image1: WorkImage = {
-        src: 'team.svg',
+        src: '/team.svg',
         alt: 'Team',
         height: 176,
         width: 176
     }
 
     const roamSde2Image2: WorkImage = {
-        src: 'mobile_app.svg',
+        src: '/mobile_app.svg',
         alt: 'Infra',
         height: 176,
         width: 176
@@ -49,7 +49,7 @@ export default function WordExperience() {
     }
 
     const roamSde1Image1: WorkImage = {
-        src: 'location.svg',
+        src: '/location.svg',
         alt: 'Team',
         height: 176,
         width: 176
@@ -78,14 +78,14 @@ export default function WordExperience() {
     }
 
     const gypseeImage1: WorkImage = {
-        src: 'trip.svg',
+        src: '/trip.svg',
         alt: 'Team',
         height: 176,
         width: 176
     }
 
     const gypseeImage2: WorkImage = {
-        src: 'repair.svg',
+        src: '/repair.svg',
         alt: 'Team',
         height: 176,
         width: 176
@@ -113,7 +113,7 @@ export default function WordExperience() {
     }
 
     const craftTatvaImage1: WorkImage = {
-        src: 'shopping.svg',
+        src: '/shopping.svg',
         alt: 'Team',
         height: 176,
         width: 176
@@ -136,7 +136,7 @@ export default function WordExperience() {
     return (
         <div className="flex flex-col gap-8 items-center justify-center font-mono">
 
-            <TypingAnimation text="Work Experience" />
+            <TypingAnimation text="Work Experience" size="text-4xl"/>
 
             <ExperienceCard
                 details={roamSde2}

@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #1A1E24;
-  --foreground: #E6EDF3;
+  --background: #81C784;
+  --foreground: #1B5E20;
 }
 
 @theme inline {
@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #81C784;
+    --foreground: #1B5E20;
   }
 }
 
@@ -26,13 +26,20 @@ body {
 }
 
 .myButton {
-  background-color: #58A6FF;
+  background-color: #1B5E20;
+  color: #81C784;
 }
 
 .myButton:hover {
-  background-color: #484F58;
+  background-color: #ffffff;
 }
 
 .skillcard {
-  color: #1A1E24;
+  color: #1B5E20;
 }
+
+.tech-stack-heading {
+  background-color: #81C784;
+  color: #1B5E20;
+}
+

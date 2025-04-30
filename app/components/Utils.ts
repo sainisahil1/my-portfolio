@@ -25,3 +25,19 @@ export interface SkillItem {
     Icon: IconType;
     name: string
 }
+
+export interface ProjectProps {
+    title: string,
+    url: string,
+    description: string[],
+    images: ProjectImage[],
+    tags: string[]
+}
+
+export interface ProjectImage {
+    src: string,
+    alt: string,
+    subtitle: string,
+    height: number,
+    width: number
+}
