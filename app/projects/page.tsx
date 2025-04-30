@@ -113,7 +113,7 @@ export default function ProjectsPage() {
         alt: "circuit",
         subtitle: "Home page to start/stop location tracking",
         height: 400,
-        width: 200
+        width: 150
     }
 
     const tripImage2: ProjectImage = {
@@ -121,7 +121,7 @@ export default function ProjectsPage() {
         alt: "flow",
         subtitle: "Locally saved trips.",
         height: 400,
-        width: 200
+        width: 150
     }
 
     const tripImage3: ProjectImage = {
@@ -129,7 +129,7 @@ export default function ProjectsPage() {
         alt: "flow",
         subtitle: "Trip route visualization on a map.",
         height: 400,
-        width: 200
+        width: 150
     }
 
     const tripApp: ProjectProps = {
@@ -165,7 +165,7 @@ export default function ProjectsPage() {
     return (
         <div className="flex flex-col gap-10 items-center justify-center font-mono">
 
-            <TypingAnimation text="Projects" size="text-4xl" />
+            <TypingAnimation text="Projects" size="text-2xl md:text-4xl" />
 
             <ProjectCard
                 details={arduinoProject}

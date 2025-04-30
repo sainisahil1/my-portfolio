@@ -123,7 +123,7 @@ export default function TechStack() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen font-mono p-8">
 
-      <TypingAnimation text="Tech Stack" size="text-4xl"/>
+      <TypingAnimation text="Tech Stack" size="text-2xl md:text-4xl"/>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full max-w-6xl mt-10 text-center">
 

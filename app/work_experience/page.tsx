@@ -136,7 +136,7 @@ export default function WordExperience() {
     return (
         <div className="flex flex-col gap-8 items-center justify-center font-mono">
 
-            <TypingAnimation text="Work Experience" size="text-4xl"/>
+            <TypingAnimation text="Work Experience" size="text-2xl md:text-4xl"/>
 
             <ExperienceCard
                 details={roamSde2}
