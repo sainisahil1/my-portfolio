@@ -1,7 +1,7 @@
 import { FaAndroid, FaCss3, FaJava, FaNodeJs, FaReact } from "react-icons/fa";
 import { SiAmazonwebservices, SiDart, SiExpress, SiFirebase, SiInfluxdb, SiJavascript, SiKotlin, SiMongodb, SiMysql, SiNextdotjs, SiProxmox, SiRedis, SiSpringboot, SiSqlite, SiTailwindcss, SiTypescript } from "react-icons/si";
 import TypingAnimation from "../components/TypingAnimation";
-import { FaFlutter } from "react-icons/fa6";
+import { FaFlutter, FaGolang } from "react-icons/fa6";
 import TechStackCard from "../components/TechStackCard";
 import { SkillItem } from "../components/Utils";
 
@@ -53,6 +53,10 @@ export default function TechStack() {
     {
       Icon: FaNodeJs,
       name: "Node.js"
+    },
+    {
+      Icon: FaGolang,
+      name: "Go"
     },
   ];
 
