@@ -1,5 +1,5 @@
-import { FaAndroid, FaCss3, FaJava, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiAmazonwebservices, SiDart, SiExpress, SiFirebase, SiInfluxdb, SiJavascript, SiKotlin, SiMongodb, SiMysql, SiNextdotjs, SiProxmox, SiRedis, SiSpringboot, SiSqlite, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { FaAndroid, FaJava, FaLaravel, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiAmazonwebservices, SiDart, SiEmberdotjs, SiExpress, SiFirebase, SiInfluxdb, SiJavascript, SiKotlin, SiMongodb, SiMysql, SiNextdotjs, SiPostgresql, SiProxmox, SiRedis, SiSpringboot, SiTailwindcss, SiTypescript } from "react-icons/si";
 import TypingAnimation from "../components/TypingAnimation";
 import { FaFlutter, FaGolang } from "react-icons/fa6";
 import TechStackCard from "../components/TechStackCard";
@@ -32,12 +32,12 @@ export default function TechStack() {
       name: "React.js"
     },
     {
-      Icon: SiTailwindcss,
-      name: "Tailwind CSS"
+      Icon: SiEmberdotjs,
+      name: "Ember.js"
     },
     {
-      Icon: FaCss3,
-      name: "CSS 3"
+      Icon: SiTailwindcss,
+      name: "Tailwind CSS"
     },
   ];
 
@@ -57,6 +57,10 @@ export default function TechStack() {
     {
       Icon: FaGolang,
       name: "Go"
+    },
+    {
+      Icon: FaLaravel,
+      name: "Laravel"
     },
   ];
 
@@ -78,8 +82,8 @@ export default function TechStack() {
       name: "InfluxDB"
     },
     {
-      Icon: SiSqlite,
-      name: "SQLite"
+      Icon: SiPostgresql,
+      name: "PostgreSQL"
     },
   ];
 
